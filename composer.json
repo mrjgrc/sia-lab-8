@@ -1,0 +1,14 @@
+{
+    "name": "acer/stripe-php-app",
+    "autoload": {
+        "psr-4": {
+            "Acer\\StripePhpApp\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "config": {
+        "secure-http": false
+    }
+}
